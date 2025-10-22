@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "RionaSansBlack";
+  src: url("./assets/fonts/RionaSansBlack.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "RionaSansMedium";
+  src: url("./assets/fonts/RionaSansMedium.ttf") format("truetype");
+  font-weight: normal;
+}

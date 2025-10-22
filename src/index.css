@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Riona Sans Black';
+  src: url('./assets/fonts/RionaSansBlack.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply it globally */
+body {
+  font-family: 'Riona Sans Black', monospace;
+  background-color:#252525;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.2s ease-in-out;
+  z-index: 999; /* so it stays on top */
+}
+
+/* Start hidden above the viewport */
+.navbar-hidden {
+  transform: translateY(-100%);
+}
+
+/* Slide down into view */
+.navbar-visible {
+  transform: translateY(0);
+}

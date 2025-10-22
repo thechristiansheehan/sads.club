@@ -1,0 +1,76 @@
+.arrow-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.arrow-btn:hover {
+  opacity: 0.7;
+}
+
+.arrow-btn:active {
+  transform: scale(0.9);
+}
+.viewfull a {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  font-family: "RionaSansBlack", sans-serif;
+  font-size: 1.1rem;
+}
+
+.viewfull a:hover {
+  opacity: 0.7;
+}
+
+.events-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-block {
+  padding: 10px 15px;
+  min-width: 160px;
+  text-align: center;
+}
+
+.event-title {
+  font-size: 1.2rem;
+  font-family: RionaSansBlack;
+  margin-bottom: 5px;
+}
+
+.event-date {
+  font-family: RionaSansBlack;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.event-time,
+.event-location {
+  font-family: RionaSansMedium;
+  font-size: 0.9rem;
+}
+
+.connector-line {
+  height: 2px;
+  background-color: white;
+  width: 50px;
+}
+
+/* ✅ Mobile Portrait Mode */
+@media (max-width: 800px) {
+  .events-container {
+    flex-direction: column;
+  }
+
+  .connector-line {
+    width: 2px;
+    height: 30px;
+  }
+}
