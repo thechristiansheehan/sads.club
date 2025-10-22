@@ -1,14 +1,12 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./fonts.css";
 
 import Footer from "./components/footer.jsx";
 import Home from "./Home.jsx";
-import About from "./About.jsx";
 import Calendar from "./Calendar.jsx";
 import Resources from "./Resources.jsx";
 import MeetTheTeam from "./meettheteam.jsx";
-import ScrollToTop from './ScrollToTop.jsx';
 
 function App() {
   return (
@@ -19,7 +17,6 @@ function App() {
       }}
     >
       <Router>
-        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/calendar" element={<Calendar />} />

@@ -55,8 +55,8 @@ const Navbar = ({ className = "", showNav }) => {
         <HashLink smooth to="/#about" onClick={() => setIsOpen(false)}>
     About
   </HashLink>
-        <a href="#/calendar" onClick={() => setIsOpen(false)}>Calendar</a>
-        <a href="#/resources" onClick={() => setIsOpen(false)}>Resources</a>
+        <a href="/calendar" onClick={() => setIsOpen(false)}>Calendar</a>
+        <a href="/resources" onClick={() => setIsOpen(false)}>Resources</a>
       </div>
     </nav>
   );

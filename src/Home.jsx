@@ -45,10 +45,10 @@ const Home = () => {
             <HashLink className="header-link" smooth to="/#about">
     About
   </HashLink>
-            <a href="#/calendar" className="header-link">
+            <a href="/calendar" className="header-link">
               Calendar
             </a>
-            <a href="#/resources" className="header-link">
+            <a href="/resources" className="header-link">
               Resources
             </a>
           </div>
@@ -68,7 +68,7 @@ const Home = () => {
       <div id="about" className="aboutsection">
   <div className="aboutcontent">
   <div className="abouttext">The Statistics and Data Science (SADS) Club at SMU is a community for students eager to strengthen their technical skills, explore real-world applications of data, and connect with peers who share similar interests. Through workshops, events, and mentorship, members receive personalized guidance on building and refining their portfolios, preparing them for opportunities in academia, industry, and beyond. Whether you’re just getting started or already experienced in data science, SADS offers a supportive environment to learn, grow, and network.
-    <br/><br/><a href="#/meettheteam">Meet the team →</a>
+    <br/><br/><a href="/meettheteam">Meet the team →</a>
   </div>
   <div className="aboutimage">
   <img src="https://sadseditor-production.up.railway.app/uploads/about.jpg"></img>
