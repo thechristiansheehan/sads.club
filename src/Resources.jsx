@@ -4,6 +4,7 @@ import sql from "./assets/images/sql.png";
 import tableau from "./assets/images/tableau.png";
 import NavBar from "./components/navbar.jsx";
 import "./Home.css";
+import datavis from "./assets/images/datavis.jpg"
 
 const Resources = () => {
   return (
@@ -20,6 +21,38 @@ const Resources = () => {
           justifyContent: "center",
         }}
       >
+
+                {/* Intro to Python Data Visualization */}
+        <a
+          href="https://colab.research.google.com/drive/1mpQmDIE_dm7D3XKh9Ig9OPLDXhCqIauA?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            width: "200px",
+            overflow: "hidden",
+            textAlign: "center",
+            backgroundColor: "#404040",
+            color: "white",
+            textDecoration: "none",
+          }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.filter = "brightness(85%)")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.filter = "brightness(100%)")
+          }
+        >
+          <img
+            src={datavis}
+            alt="Intro to Python Data Analysis and Visualization"
+            style={{ width: "100%", height: "200px" }}
+          />
+          <div style={{ padding: "8px" }}>
+            <h4 style={{ margin: 0 }}>Intro to Python Data Analysis and Visualization</h4>
+          </div>
+        </a>
+
+
         {/* Intro to Excel */}
         <a
           href="https://github.com/Statistics-and-Data-Science-SMU/SADS-Tutorials/tree/main/Intro%20to%20Excel"
